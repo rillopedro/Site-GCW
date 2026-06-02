@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav>
+            <div class="logo">LIMA <span>STUDIO</span></div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="galeria.html" class="btn-outline">Galeria Privada</a>
+            <a href="#agendar" class="btn-outline">Agendar Sessão</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <p class="small">FOTOGRAFIA DE LUXO</p>
+            <h1>Momentos Eternos</h1>
+            <p>Capturamos a essência dos seus momentos mais preciosos com elegância, sofisticação e uma abordagem
+                cinematográfica única.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn-gold">Ver Portfólio</a>
+                <a href="#agendar" class="btn-outline">Agendar Sessão</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfólio Exclusivo</h2>
+        <p class="subtitle">Cada imagem conta uma história única.</p>
+
+        <div class="gallery">
+            <div class="item"><img src="img/5f2b1032b3fe3567acbdf8d89b45f1e0.jpg" alt="Imagem 1"></div>
+            <div class="item"><img src="img/b889aed0bcdea555f52720be7780a0b9.jpg" alt="Imagem 2"></div>
+            <div class="item"><img src="img/d382153893eaa84514e6b2adfafd0c7a.jpg" alt="Imagem 3"></div>
+            <div class="item"><img src="img/fd0e3b091a88ba76501c911608b3d3ab.jpg" alt="Imagem 4"></div>
+            <div class="item"><img src="img/f5dc91a94ea6e1f0c1d38967de1b631e.jpg" alt="Imagem 5"></div>
+            <div class="item"><img src="img/26efd06b89b3e6c64d7fe9445874e3df.jpg" alt="Imagem 6"></div>
+            <div class="item"><img src="img/img11.jpg" alt="Imagem 7"></div>
+            <div class="item"><img src="img/img10.jpg" alt="Imagem 8"></div>
+        </div>
+    </section>
+
+    <div class="lightbox-overlay" id="lightboxOverlay" role="dialog" aria-modal="true">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">×</button>
+            <img src="" alt="Visualização da imagem" class="lightbox-image" id="lightboxImage">
+        </div>
+    </div>
+
+    <section id="servicos" class="section dark">
+        <h2>Excelência em Cada Projeto</h2>
+
+        <div class="services">
+            <div class="service-card">
+                <h3>Casamentos de Luxo</h3>
+                <p>Cobertura cinematográfica premium.</p>
+            </div>
+            <div class="service-card">
+                <h3>Eventos Corporativos</h3>
+                <p>Elegância e discrição profissional.</p>
+            </div>
+            <div class="service-card">
+                <h3>Ensaios Exclusivos</h3>
+                <p>Sessões sofisticadas e personalizadas.</p>
+            </div>
+            <div class="service-card">
+                <h3>Editoriais de Moda</h3>
+                <p>Produções fashion autorais.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pacotes" class="section">
+        <h2>Pacotes Personalizados</h2>
+
+        <div class="pricing">
+            <div class="card">
+                <h3>Essencial</h3>
+                <span>R$3.500</span>
+                <p>Pequenos eventos</p>
+                <ul class="package-details">
+                    <li>1 hora de cobertura</li>
+                    <li>20 fotos editadas</li>
+                    <li>Galeria online privada</li>
+                </ul>
+            </div>
+
+            <div class="card featured">
+                <div class="badge">MAIS POPULAR</div>
+                <h3>Premium</h3>
+                <span>R$7.500</span>
+                <p>Casamentos e eventos</p>
+                <ul class="package-details">
+                    <li>3 horas de cobertura</li>
+                    <li>60 fotos editadas</li>
+                    <li>Álbum digital e impressões</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Exclusivo</h3>
+                <span>R$15.000</span>
+                <p>Experiência completa</p>
+                <ul class="package-details">
+                    <li>Cobertura total do evento</li>
+                    <li>120 fotos editadas</li>
+                    <li>Álbum premium + mídia entregue</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="agendar" class="section dark">
+        <h2>Agende Sua Sessão</h2>
+
+        <form id="form">
+            <input type="text" placeholder="Nome Completo">
+            <input type="email" placeholder="E-mail">
+            <input type="tel" placeholder="Telefone">
+            <textarea placeholder="Conte-nos sobre seu evento"></textarea>
+            <button>Enviar Solicitação</button>
+        </form>
+    </section>
+
+    <footer id="contato">
+        <div class="footer-logo">LIMA <span>STUDIO</span></div>
+        <p>São Paulo • Brasil</p>
+        <p>contato@limastudio.com.br</p>
+        <p>© 2026 Lima Studio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
