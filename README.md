@@ -1,2 +1,2 @@
 # Site-GCW
-https://rillopedr.github.io/SiteGCW
+https://rillopedr.github.io/Site-GCW
