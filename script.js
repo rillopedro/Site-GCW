@@ -3,7 +3,7 @@ const form = document.getElementById('form');
 if (form) {
   form.addEventListener('submit', function(e){
     e.preventDefault();
-    alert('Solicitação enviada com sucesso!');
+    alert('Sessão agendada!');
   });
 }
 
